@@ -1,10 +1,15 @@
 import { types } from 'mobx-state-tree'
-import Branch from 'models/branch/branch'
 import Indicator from 'models/indicator/indicator'
 
-const Category = Branch.named('Category', {
+const Category = types.model('Category', {
+  id: types.identifierNumber,
+  name: types.string,
   indicators: types.optional(types.array(Indicator), []),
   unit: types.string
-})
+}).views(self => ({
+  get active() {
+    return self.indicators.some(indicator => indicator.active)
+  }
+}))
 
 export default Category

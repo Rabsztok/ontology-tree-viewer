@@ -17,14 +17,14 @@ describe('OntologyStore', () => {
   })
 
   describe('fetchData', () => {
-    it('fills subThemes with data on success', async () => {
+    it('fills themes with data on success', async () => {
       mock.onGet('input').reply(200, response.data)
       sandbox.spy(apiClient, 'get')
 
       await store.fetchData('input')
 
       expect(store.status).toBe('loaded')
-      expect(store.subThemes).toHaveLength(12)
+      expect(store.thems).toHaveLength(12)
     })
 
     it('retries until it fails', async () => {
@@ -34,7 +34,7 @@ describe('OntologyStore', () => {
       await expect(store.fetchData('input')).rejects.toThrow()
 
       expect(store.status).toBe('error')
-      expect(store.subThemes).toHaveLength(0)
+      expect(store.thems).toHaveLength(0)
     })
 
     it('retries until it succeeds', async () => {
@@ -44,7 +44,7 @@ describe('OntologyStore', () => {
       await store.fetchData('input')
 
       expect(store.status).toBe('loaded')
-      expect(store.subThemes).toHaveLength(12)
+      expect(store.thems).toHaveLength(12)
     })
 
     it('sets state to error if fetched data is corrupt', async () => {
@@ -54,7 +54,7 @@ describe('OntologyStore', () => {
       await expect(store.fetchData('input')).rejects.toThrow()
 
       expect(store.status).toBe('error')
-      expect(store.subThemes).toHaveLength(0)
+      expect(store.thems).toHaveLength(0)
     })
   })
 })

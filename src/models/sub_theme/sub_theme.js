@@ -1,9 +1,15 @@
 import { types } from 'mobx-state-tree'
-import Branch from 'models/branch/branch'
 import Category from 'models/category/category'
 
-const SubTheme = Branch.named('SubTheme', {
+const SubTheme = types.model('SubTheme', {
+  id: types.identifierNumber,
+  name: types.string,
   categories: types.optional(types.array(Category), [])
 })
+.views(self => ({
+  get active() {
+    return self.categories.some(category => category.active)
+  }
+}))
 
 export default SubTheme

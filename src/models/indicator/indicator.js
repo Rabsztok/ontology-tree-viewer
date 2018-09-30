@@ -1,8 +1,14 @@
 import { types } from 'mobx-state-tree'
-import Branch from 'models/branch/branch'
 
-const Indicator = Branch.named('Indicator', {
+const Indicator = types.model('Indicator', {
+  id: types.identifierNumber,
+  name: types.string,
   active: types.optional(types.boolean, false)
 })
+.actions(self => ({
+  toggle() {
+    self.active = !self.active
+  }
+}))
 
 export default Indicator
