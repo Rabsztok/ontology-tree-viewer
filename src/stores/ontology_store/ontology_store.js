@@ -2,24 +2,25 @@ import { types, flow } from 'mobx-state-tree'
 import SubTheme from 'models/sub_theme/sub_theme'
 import { camelizeKeys } from 'humps'
 import track from 'arboris/lib/track'
-import axios from 'axios'
+import apiClient from 'utils/api_client'
 
 const OntologyStore = types
-  .model('OntologyStore', {
-    tree: types.optional(types.array(SubTheme), [])
+.model('OntologyStore', {
+  subThemes: types.optional(types.array(SubTheme), []),
+  status: types.optional(types.enumeration(['initial', 'loaded', 'error']), 'initial')
+})
+.actions(self => ({
+  fetchData: flow(function* fetchData(path) {
+    try {
+      const response = yield apiClient.get(path)
+      self.subThemes = response.data.map(entry => camelizeKeys(entry))
+      self.status = 'loaded'
+    } catch (e) {
+      self.status = 'error'
+      throw e
+    }
   })
-  .actions(() => ({
-    fetchData: flow(function * fetchData (path) {
-      try {
-        const response = yield axios.get(path, {
-          baseUrl: process.env.RAZZLE_API_URL
-        })
-        self.tree = response.data.map(camelizeKeys)
-      } catch (e) {
-        throw e
-      }
-    })
-  }))
+}))
 
 export default track(OntologyStore, {
   fetchData: track.async()
