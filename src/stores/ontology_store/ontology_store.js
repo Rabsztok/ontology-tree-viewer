@@ -7,16 +7,20 @@ import apiClient from 'utils/api_client'
 const OntologyStore = types
 .model('OntologyStore', {
   themes: types.optional(types.array(Theme), []),
-  status: types.optional(types.enumeration(['initial', 'loaded', 'error']), 'initial')
+  status: types.optional(types.enumeration(['initial', 'loading', 'loaded', 'error']), 'initial')
 })
 .actions(self => ({
+  setStatus(status) {
+    self.status = status
+  },
   fetchData: flow(function* fetchData(path) {
     try {
+      self.setStatus('loading')
       const response = yield apiClient.get(path)
       self.themes = response.data.map(entry => camelizeKeys(entry))
-      self.status = 'loaded'
+      self.setStatus('loaded')
     } catch (e) {
-      self.status = 'error'
+      self.setStatus('error')
       throw e
     }
   })

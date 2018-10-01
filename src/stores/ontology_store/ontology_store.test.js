@@ -24,7 +24,7 @@ describe('OntologyStore', () => {
       await store.fetchData('input')
 
       expect(store.status).toBe('loaded')
-      expect(store.thems).toHaveLength(12)
+      expect(store.themes).toHaveLength(12)
     })
 
     it('retries until it fails', async () => {
@@ -34,7 +34,7 @@ describe('OntologyStore', () => {
       await expect(store.fetchData('input')).rejects.toThrow()
 
       expect(store.status).toBe('error')
-      expect(store.thems).toHaveLength(0)
+      expect(store.themes).toHaveLength(0)
     })
 
     it('retries until it succeeds', async () => {
@@ -44,7 +44,7 @@ describe('OntologyStore', () => {
       await store.fetchData('input')
 
       expect(store.status).toBe('loaded')
-      expect(store.thems).toHaveLength(12)
+      expect(store.themes).toHaveLength(12)
     })
 
     it('sets state to error if fetched data is corrupt', async () => {
@@ -54,7 +54,7 @@ describe('OntologyStore', () => {
       await expect(store.fetchData('input')).rejects.toThrow()
 
       expect(store.status).toBe('error')
-      expect(store.thems).toHaveLength(0)
+      expect(store.themes).toHaveLength(0)
     })
   })
 })

@@ -1,0 +1,3232 @@
+{
+  "themes": [
+    {
+      "id": 1,
+      "name": "Urban Extent",
+      "active": false,
+      "subThemes": [
+        {
+          "id": 1,
+          "name": "Administrative",
+          "active": false,
+          "categories": [
+            {
+              "id": 1,
+              "name": "Area",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 299,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(sq. km.)"
+            },
+            {
+              "id": 2,
+              "name": "Population",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 300,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(thousands)"
+            },
+            {
+              "id": 3,
+              "name": "Population density",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 301,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(people per sq. km.)"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Built up",
+          "active": false,
+          "categories": [
+            {
+              "id": 4,
+              "name": "Area",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 302,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(sq. km.)"
+            },
+            {
+              "id": 5,
+              "name": "Population",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 303,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(thousands)"
+            },
+            {
+              "id": 6,
+              "name": "Population density",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 304,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(people per sq. km.)"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Lit at night",
+          "active": false,
+          "categories": [
+            {
+              "id": 7,
+              "name": "Area",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 305,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(sq. km.)"
+            },
+            {
+              "id": 8,
+              "name": "Population",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 306,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(thousands)"
+            },
+            {
+              "id": 9,
+              "name": "Population density",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 307,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(people per sq. km.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Demographics",
+      "active": false,
+      "subThemes": [
+        {
+          "id": 4,
+          "name": "Births and Deaths",
+          "active": false,
+          "categories": [
+            {
+              "id": 10,
+              "name": "Crude birth rate",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 308,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(live births per 1000 people)"
+            },
+            {
+              "id": 11,
+              "name": "Crude death rate",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 1,
+                  "name": "total",
+                  "active": false
+                },
+                {
+                  "id": 2,
+                  "name": "male",
+                  "active": false
+                },
+                {
+                  "id": 3,
+                  "name": "female",
+                  "active": false
+                }
+              ],
+              "unit": "(deaths per 1000 people)"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Age and Sex",
+          "active": false,
+          "categories": [
+            {
+              "id": 12,
+              "name": "Dependency ratio",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 4,
+                  "name": "0-14 or 65+ years",
+                  "active": false
+                },
+                {
+                  "id": 5,
+                  "name": "0-14 years",
+                  "active": false
+                },
+                {
+                  "id": 6,
+                  "name": "65+ years",
+                  "active": false
+                }
+              ],
+              "unit": "(percent)"
+            },
+            {
+              "id": 13,
+              "name": "Gender ratio",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 7,
+                  "name": "All ages",
+                  "active": false
+                },
+                {
+                  "id": 8,
+                  "name": "At birth",
+                  "active": false
+                },
+                {
+                  "id": 9,
+                  "name": "0-4 years",
+                  "active": false
+                }
+              ],
+              "unit": "(percent)"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Religion and social groups",
+          "active": false,
+          "categories": [
+            {
+              "id": 14,
+              "name": "Scheduled Caste (SC)",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 309,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent)"
+            },
+            {
+              "id": 15,
+              "name": "Scheduled Tribe (ST)",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 310,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Jobs",
+      "active": false,
+      "subThemes": [
+        {
+          "id": 7,
+          "name": "Labor force",
+          "active": false,
+          "categories": [
+            {
+              "id": 16,
+              "name": "Working population, 15+ years",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 10,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 11,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 12,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent)"
+            },
+            {
+              "id": 17,
+              "name": "Working population, 7+ years",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 13,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 14,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 15,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent)"
+            },
+            {
+              "id": 18,
+              "name": "Labor force participation, 15+ years, usual",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 16,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 17,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 18,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of age group)"
+            },
+            {
+              "id": 19,
+              "name": "Labor force participation, 15+ years, weekly",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 19,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 20,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 21,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of age group)"
+            },
+            {
+              "id": 20,
+              "name": "Employment rate, 7+ years, main + marginal",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 22,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 23,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 24,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of age group)"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Unemployment",
+          "active": false,
+          "categories": [
+            {
+              "id": 21,
+              "name": "Unemployment rate, 15+ years, usual",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 25,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 26,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 27,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of labor force)"
+            },
+            {
+              "id": 22,
+              "name": "Unemployment rate, 15+ years, weekly",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 28,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 29,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 30,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of labor force)"
+            },
+            {
+              "id": 23,
+              "name": "Unemployment rate, 15–24 years, usual",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 31,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 32,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 33,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of labor force)"
+            },
+            {
+              "id": 24,
+              "name": "Unemployment rate, 15–24 years, weekly",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 34,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 35,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 36,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of labor force)"
+            },
+            {
+              "id": 25,
+              "name": "Under-employment rate, 15+ years, marginal",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 37,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 38,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 39,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of labor force)"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Employment",
+          "active": false,
+          "categories": [
+            {
+              "id": 26,
+              "name": "Employment by sector",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 40,
+                  "name": "Agriculture",
+                  "active": false
+                },
+                {
+                  "id": 41,
+                  "name": "Manufacturing",
+                  "active": false
+                },
+                {
+                  "id": 42,
+                  "name": "Industry (including manufacturing)",
+                  "active": false
+                },
+                {
+                  "id": 43,
+                  "name": "Services",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of total employment)"
+            },
+            {
+              "id": 27,
+              "name": "Farmers",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 44,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 45,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 46,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of total employment)"
+            },
+            {
+              "id": 28,
+              "name": "Self-employed",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 47,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 48,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 49,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of total employment)"
+            },
+            {
+              "id": 29,
+              "name": "Casual wage earners",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 50,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 51,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 52,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of total employment)"
+            },
+            {
+              "id": 30,
+              "name": "Regular wage earners",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 53,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 54,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 55,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of total employment)"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Earnings",
+          "active": false,
+          "categories": [
+            {
+              "id": 31,
+              "name": "Labor earnings by gender",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 56,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 57,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 58,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(current USD per day)"
+            },
+            {
+              "id": 32,
+              "name": "Labor earnings by sector",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 59,
+                  "name": "Agriculture",
+                  "active": false
+                },
+                {
+                  "id": 60,
+                  "name": "Industry",
+                  "active": false
+                },
+                {
+                  "id": 61,
+                  "name": "Services",
+                  "active": false
+                }
+              ],
+              "unit": "(current USD per day)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Economic Activity",
+      "active": false,
+      "subThemes": [
+        {
+          "id": 11,
+          "name": "Output",
+          "active": false,
+          "categories": [
+            {
+              "id": 33,
+              "name": "GDP",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 311,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(current USD, in millions)"
+            },
+            {
+              "id": 34,
+              "name": "GDP per capita",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 312,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(current USD)"
+            },
+            {
+              "id": 35,
+              "name": "GVA by sector, ISIC 3.1",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 62,
+                  "name": "Agriculture, fishing, hunting and forestry (A, B)",
+                  "active": false
+                },
+                {
+                  "id": 63,
+                  "name": "Mining and quarrying (C)",
+                  "active": false
+                },
+                {
+                  "id": 64,
+                  "name": "Manufacturing (D)",
+                  "active": false
+                },
+                {
+                  "id": 65,
+                  "name": "Electricity, gas and water supply (E)",
+                  "active": false
+                },
+                {
+                  "id": 66,
+                  "name": "Construction (F)",
+                  "active": false
+                },
+                {
+                  "id": 67,
+                  "name": "Trade, hotels and restaurants (G, H)",
+                  "active": false
+                },
+                {
+                  "id": 68,
+                  "name": "Transportation, storage and communications (I)",
+                  "active": false
+                },
+                {
+                  "id": 69,
+                  "name": "Financial intermediation (J)",
+                  "active": false
+                },
+                {
+                  "id": 70,
+                  "name": "Real estate, renting and business activities (K)",
+                  "active": false
+                },
+                {
+                  "id": 71,
+                  "name": "Public administration (L)",
+                  "active": false
+                },
+                {
+                  "id": 72,
+                  "name": "Other (M, N, O, P, Q)",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of GDP)"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Night light intensity",
+          "active": false,
+          "categories": [
+            {
+              "id": 36,
+              "name": "Light intensity per 1000 people",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 313,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(Digital Numbers of light per 1000 people)"
+            },
+            {
+              "id": 37,
+              "name": "Light intensity per area",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 314,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(Digital Numbers of light per sq. km.) "
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Productivity of agriculture",
+          "active": false,
+          "categories": [
+            {
+              "id": 38,
+              "name": "Crop yields, monetary",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 73,
+                  "name": "All",
+                  "active": false
+                },
+                {
+                  "id": 74,
+                  "name": "Groundnut",
+                  "active": false
+                },
+                {
+                  "id": 75,
+                  "name": "Maize",
+                  "active": false
+                },
+                {
+                  "id": 76,
+                  "name": "Millets",
+                  "active": false
+                },
+                {
+                  "id": 77,
+                  "name": "Pulses",
+                  "active": false
+                },
+                {
+                  "id": 78,
+                  "name": "Rice",
+                  "active": false
+                },
+                {
+                  "id": 79,
+                  "name": "Sugar cane",
+                  "active": false
+                },
+                {
+                  "id": 80,
+                  "name": "Wheat",
+                  "active": false
+                }
+              ],
+              "unit": "(2011 USD per ha., in thousands)"
+            },
+            {
+              "id": 39,
+              "name": "Crop yields, quantity",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 81,
+                  "name": "All",
+                  "active": false
+                },
+                {
+                  "id": 82,
+                  "name": "Groundnut",
+                  "active": false
+                },
+                {
+                  "id": 83,
+                  "name": "Maize",
+                  "active": false
+                },
+                {
+                  "id": 84,
+                  "name": "Millets",
+                  "active": false
+                },
+                {
+                  "id": 85,
+                  "name": "Pulses",
+                  "active": false
+                },
+                {
+                  "id": 86,
+                  "name": "Rice",
+                  "active": false
+                },
+                {
+                  "id": 87,
+                  "name": "Sugar cane",
+                  "active": false
+                },
+                {
+                  "id": 88,
+                  "name": "Wheat",
+                  "active": false
+                }
+              ],
+              "unit": "(tonnes per ha.)"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Productivity of manufacturing",
+          "active": false,
+          "categories": []
+        },
+        {
+          "id": 15,
+          "name": "Productivity of services",
+          "active": false,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Infrastructure",
+      "active": false,
+      "subThemes": [
+        {
+          "id": 16,
+          "name": "Connectivity",
+          "active": false,
+          "categories": [
+            {
+              "id": 40,
+              "name": "Road length",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 89,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 90,
+                  "name": "Major highways, primary and secondary",
+                  "active": false
+                },
+                {
+                  "id": 91,
+                  "name": "Tertiary and rural",
+                  "active": false
+                },
+                {
+                  "id": 92,
+                  "name": "Other",
+                  "active": false
+                }
+              ],
+              "unit": "(km.)"
+            },
+            {
+              "id": 41,
+              "name": "Road intensity",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 93,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 94,
+                  "name": "Major highways, primary and secondary",
+                  "active": false
+                },
+                {
+                  "id": 95,
+                  "name": "Tertiary and rural",
+                  "active": false
+                },
+                {
+                  "id": 96,
+                  "name": "Other",
+                  "active": false
+                }
+              ],
+              "unit": "(km. per 1000 sq. km.)"
+            },
+            {
+              "id": 42,
+              "name": "Number of stations",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 97,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 98,
+                  "name": "Railway",
+                  "active": false
+                },
+                {
+                  "id": 99,
+                  "name": "Metro",
+                  "active": false
+                }
+              ],
+              "unit": "(stations)"
+            },
+            {
+              "id": 43,
+              "name": "Density of stations",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 100,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 101,
+                  "name": "Railway",
+                  "active": false
+                },
+                {
+                  "id": 102,
+                  "name": "Metro",
+                  "active": false
+                }
+              ],
+              "unit": "(stations per 1000 sq. km.)"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Energy",
+          "active": false,
+          "categories": [
+            {
+              "id": 44,
+              "name": "Households’ access to electricity",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 103,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 104,
+                  "name": "Slums",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of households)"
+            },
+            {
+              "id": 45,
+              "name": "Households’ use of fuel for cooking",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 105,
+                  "name": "Biomass",
+                  "active": false
+                },
+                {
+                  "id": 106,
+                  "name": "Coal/lignite/charcoal",
+                  "active": false
+                },
+                {
+                  "id": 107,
+                  "name": "Kerosene",
+                  "active": false
+                },
+                {
+                  "id": 108,
+                  "name": "LPG/PNG",
+                  "active": false
+                },
+                {
+                  "id": 109,
+                  "name": "Electricity",
+                  "active": false
+                },
+                {
+                  "id": 110,
+                  "name": "Biogas",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of households)"
+            },
+            {
+              "id": 46,
+              "name": "Households’ use of fuel for light",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 111,
+                  "name": "Kerosene",
+                  "active": false
+                },
+                {
+                  "id": 112,
+                  "name": "Gas/other oil",
+                  "active": false
+                },
+                {
+                  "id": 113,
+                  "name": "Electricity",
+                  "active": false
+                },
+                {
+                  "id": 114,
+                  "name": "Candle/others",
+                  "active": false
+                },
+                {
+                  "id": 115,
+                  "name": "No lighting arrangement",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of households)"
+            },
+            {
+              "id": 47,
+              "name": "Non-agriculture enterprises’ use of electricity",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 116,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 117,
+                  "name": "Public",
+                  "active": false
+                },
+                {
+                  "id": 118,
+                  "name": "Private",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of establishments)"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Water and Sanitation",
+          "active": false,
+          "categories": [
+            {
+              "id": 48,
+              "name": "Households’ access to improved water",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 119,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 120,
+                  "name": "Slums",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of households)"
+            },
+            {
+              "id": 49,
+              "name": "Households’ access to improved sanitation",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 121,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 122,
+                  "name": "Slums",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of households)"
+            },
+            {
+              "id": 50,
+              "name": "Households’ access to enhanced improved sanitation",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 123,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 124,
+                  "name": "Slums",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of households)"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Housing",
+          "active": false,
+          "categories": [
+            {
+              "id": 51,
+              "name": "Housing units in good condition",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 125,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 126,
+                  "name": "Slums",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of households)"
+            },
+            {
+              "id": 52,
+              "name": "Housing units located in slums",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 315,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of housing units)"
+            },
+            {
+              "id": 53,
+              "name": "Use of biomass to cook indoors",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 127,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 128,
+                  "name": "Slums",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of households)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Information Technology",
+      "active": false,
+      "subThemes": [
+        {
+          "id": 20,
+          "name": "Computer",
+          "active": false,
+          "categories": []
+        },
+        {
+          "id": 21,
+          "name": "Internet",
+          "active": false,
+          "categories": []
+        },
+        {
+          "id": 22,
+          "name": "Cellphone",
+          "active": false,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Finance",
+      "active": false,
+      "subThemes": [
+        {
+          "id": 23,
+          "name": "Access",
+          "active": false,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Business",
+      "active": false,
+      "subThemes": [
+        {
+          "id": 24,
+          "name": "Economic census",
+          "active": false,
+          "categories": [
+            {
+              "id": 54,
+              "name": "Non-agriculture enterprises",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 316,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(thousands)"
+            },
+            {
+              "id": 55,
+              "name": "Non-agriculture enterprises by size",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 129,
+                  "name": "1",
+                  "active": false
+                },
+                {
+                  "id": 130,
+                  "name": "2-5",
+                  "active": false
+                },
+                {
+                  "id": 131,
+                  "name": "6-9",
+                  "active": false
+                },
+                {
+                  "id": 132,
+                  "name": "10–19",
+                  "active": false
+                },
+                {
+                  "id": 133,
+                  "name": "20–99",
+                  "active": false
+                },
+                {
+                  "id": 134,
+                  "name": "100+",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of establishments)"
+            },
+            {
+              "id": 56,
+              "name": "Non-agriculture enterprises by sector, ISIC 3.1",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 135,
+                  "name": "Mining and quarrying (C)",
+                  "active": false
+                },
+                {
+                  "id": 136,
+                  "name": "Manufacturing (D)",
+                  "active": false
+                },
+                {
+                  "id": 137,
+                  "name": "Electricity, gas and water supply (E)",
+                  "active": false
+                },
+                {
+                  "id": 138,
+                  "name": "Construction (F)",
+                  "active": false
+                },
+                {
+                  "id": 139,
+                  "name": "Trade, hotels and restaurants (G, H)",
+                  "active": false
+                },
+                {
+                  "id": 140,
+                  "name": "Transportation, storage and communications (I)",
+                  "active": false
+                },
+                {
+                  "id": 141,
+                  "name": "Financial intermediation (J)",
+                  "active": false
+                },
+                {
+                  "id": 142,
+                  "name": "Real estate, renting and business activities (K)",
+                  "active": false
+                },
+                {
+                  "id": 143,
+                  "name": "Public administration (L)",
+                  "active": false
+                },
+                {
+                  "id": 144,
+                  "name": "Education, health and social (M, N, O)",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of establishments)"
+            },
+            {
+              "id": 57,
+              "name": "Specialization index of private non-agriculture enterprises, ISIC 3.1",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 145,
+                  "name": "2 digit",
+                  "active": false
+                },
+                {
+                  "id": 146,
+                  "name": "4 digit",
+                  "active": false
+                }
+              ],
+              "unit": "(index)"
+            },
+            {
+              "id": 58,
+              "name": "Diversification index of private non-agriculture enterprises, ISIC 3.1",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 147,
+                  "name": "2 digit",
+                  "active": false
+                },
+                {
+                  "id": 148,
+                  "name": "4 digit",
+                  "active": false
+                }
+              ],
+              "unit": "(index)"
+            },
+            {
+              "id": 59,
+              "name": "Non-agriculture enterprises by ownership",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 149,
+                  "name": "Public",
+                  "active": false
+                },
+                {
+                  "id": 150,
+                  "name": "Private",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of establishments)"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Formal manufacturing",
+          "active": false,
+          "categories": []
+        },
+        {
+          "id": 26,
+          "name": "Informal manufacturing",
+          "active": false,
+          "categories": []
+        },
+        {
+          "id": 27,
+          "name": "Informal services",
+          "active": false,
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Living Standards",
+      "active": false,
+      "subThemes": [
+        {
+          "id": 28,
+          "name": "Consumption",
+          "active": false,
+          "categories": [
+            {
+              "id": 60,
+              "name": "Household per capita expenditure",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 317,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(current USD per capita per month)"
+            },
+            {
+              "id": 61,
+              "name": "Poverty rate at $1.25 a day (PPP)",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 318,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population)"
+            },
+            {
+              "id": 62,
+              "name": "Poverty rate at national poverty line",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 319,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population)"
+            },
+            {
+              "id": 63,
+              "name": "Share of bottom 40 percent",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 320,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population)"
+            },
+            {
+              "id": 64,
+              "name": "90 to 10 ratio of per capita expenditure",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 321,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(ratio)"
+            },
+            {
+              "id": 65,
+              "name": "Gini coefficient of per capita expenditure",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 322,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent)"
+            },
+            {
+              "id": 66,
+              "name": "MLD of per capita expenditure",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 323,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(index)"
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "name": "Wealth",
+          "active": false,
+          "categories": [
+            {
+              "id": 67,
+              "name": "Access to all key durable assets",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 151,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 152,
+                  "name": "Slums",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of households)"
+            },
+            {
+              "id": 68,
+              "name": "Lack of access to durable assets",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 153,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 154,
+                  "name": "Slums",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of households)"
+            },
+            {
+              "id": 69,
+              "name": "Housing ownership",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 324,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of households)"
+            },
+            {
+              "id": 70,
+              "name": "Land ownership",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 325,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of households)"
+            },
+            {
+              "id": 71,
+              "name": "Gini coefficient of landholding",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 326,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent)"
+            },
+            {
+              "id": 72,
+              "name": "MLD of landholding",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 327,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(index)"
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "Household size",
+          "active": false,
+          "categories": [
+            {
+              "id": 73,
+              "name": "People per household",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 155,
+                  "name": "total",
+                  "active": false
+                },
+                {
+                  "id": 156,
+                  "name": "slums",
+                  "active": false
+                }
+              ],
+              "unit": "(people)"
+            },
+            {
+              "id": 74,
+              "name": "People per room",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 157,
+                  "name": "total",
+                  "active": false
+                },
+                {
+                  "id": 158,
+                  "name": "slums",
+                  "active": false
+                }
+              ],
+              "unit": "(people)"
+            },
+            {
+              "id": 75,
+              "name": "Overcrowding",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 159,
+                  "name": "total",
+                  "active": false
+                },
+                {
+                  "id": 160,
+                  "name": "slums",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of housing units)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Health",
+      "active": false,
+      "subThemes": [
+        {
+          "id": 31,
+          "name": "Nutrition",
+          "active": false,
+          "categories": [
+            {
+              "id": 76,
+              "name": "Underweight",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 328,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of children, 0-4 years)"
+            },
+            {
+              "id": 77,
+              "name": "Wasting",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 329,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of children, 0-4 years)"
+            },
+            {
+              "id": 78,
+              "name": "Stunting",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 330,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of children, 0-4 years)"
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": "Health Services",
+          "active": false,
+          "categories": [
+            {
+              "id": 79,
+              "name": "Secondary health care centers",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 331,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(per 1,000 people)"
+            },
+            {
+              "id": 80,
+              "name": "Primary health care centers",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 332,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(per 1,000 people)"
+            },
+            {
+              "id": 81,
+              "name": "Institutional births",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 333,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            },
+            {
+              "id": 82,
+              "name": "Diarrhea treatment",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 334,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            },
+            {
+              "id": 83,
+              "name": "DPT immunization",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 335,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            },
+            {
+              "id": 84,
+              "name": "Full immunization",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 336,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "name": "Reproductive Health",
+          "active": false,
+          "categories": [
+            {
+              "id": 85,
+              "name": "Three ante-natal care visits",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 337,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            },
+            {
+              "id": 86,
+              "name": "Female use of condom ",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 338,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            },
+            {
+              "id": 87,
+              "name": "Female contraceptive prevalence ",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 339,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "name": "Mortality and morbidity",
+          "active": false,
+          "categories": [
+            {
+              "id": 88,
+              "name": "Infant mortality rate",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 161,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 162,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 163,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(deaths per 1,000 live births)"
+            },
+            {
+              "id": 89,
+              "name": "Neonatal mortality rate",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 340,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(deaths per 1,000 live births)"
+            },
+            {
+              "id": 90,
+              "name": "Under-five mortality rate",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 164,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 165,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 166,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(deaths per 1,000 live births)"
+            },
+            {
+              "id": 91,
+              "name": "Acute illness among children",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 167,
+                  "name": "Acute respiratory infection",
+                  "active": false
+                },
+                {
+                  "id": 168,
+                  "name": "Diarrhea",
+                  "active": false
+                },
+                {
+                  "id": 169,
+                  "name": "Fever",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of children, 0–4 years)"
+            },
+            {
+              "id": 92,
+              "name": "Acute illness",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 170,
+                  "name": "Acute respiratory infection",
+                  "active": false
+                },
+                {
+                  "id": 171,
+                  "name": "Diarrhea",
+                  "active": false
+                },
+                {
+                  "id": 172,
+                  "name": "Fever",
+                  "active": false
+                }
+              ],
+              "unit": "(per 100,000 people)"
+            },
+            {
+              "id": 93,
+              "name": "Chronic illness",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 173,
+                  "name": "Arthritis",
+                  "active": false
+                },
+                {
+                  "id": 174,
+                  "name": "Asthma",
+                  "active": false
+                },
+                {
+                  "id": 175,
+                  "name": "Diabetes",
+                  "active": false
+                },
+                {
+                  "id": 176,
+                  "name": "Hypertension",
+                  "active": false
+                },
+                {
+                  "id": 177,
+                  "name": "Tuberculosis",
+                  "active": false
+                }
+              ],
+              "unit": "(per 100,000 people)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Education",
+      "active": false,
+      "subThemes": [
+        {
+          "id": 35,
+          "name": "Enrollment",
+          "active": false,
+          "categories": [
+            {
+              "id": 94,
+              "name": "Gross primary enrollment",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 178,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 179,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 180,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            },
+            {
+              "id": 95,
+              "name": "Out-of-school children",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 341,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "name": "Attainment",
+          "active": false,
+          "categories": [
+            {
+              "id": 96,
+              "name": "Literacy rate, 7+ years",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 181,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 182,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 183,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            },
+            {
+              "id": 97,
+              "name": "Literacy rate, 15+ years",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 184,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 185,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 186,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            },
+            {
+              "id": 98,
+              "name": "Secondary education completion rate, 15+ years",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 187,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 188,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 189,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            },
+            {
+              "id": 99,
+              "name": "Tertiary education completion rate, 15+ years",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 190,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 191,
+                  "name": "Female",
+                  "active": false
+                },
+                {
+                  "id": 192,
+                  "name": "Male",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "name": "Learning",
+          "active": false,
+          "categories": [
+            {
+              "id": 100,
+              "name": "Children who can recognize numbers 1–9",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 342,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            },
+            {
+              "id": 101,
+              "name": "Children who can read letters or words",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 343,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            },
+            {
+              "id": 102,
+              "name": "Children who can do subtraction",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 344,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            },
+            {
+              "id": 103,
+              "name": "Children who can read Grade 1 text",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 345,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of population group)"
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "name": "Education Services",
+          "active": false,
+          "categories": [
+            {
+              "id": 104,
+              "name": "Classrooms in good condition in primary schools",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 346,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of classrooms)"
+            },
+            {
+              "id": 105,
+              "name": "Access to electricity in primary schools",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 347,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percentof schools)"
+            },
+            {
+              "id": 106,
+              "name": "Girls’ toilets in primary schools",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 348,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of schools with girls)"
+            },
+            {
+              "id": 107,
+              "name": "Drinking water facility in primary schools",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 349,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of schools)"
+            },
+            {
+              "id": 108,
+              "name": "Pupil-teacher ratio in primary schools",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 350,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(students per teacher)"
+            },
+            {
+              "id": 109,
+              "name": "Pupil-teacher ratio over 30 in primary schools",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 351,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of schools)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Environment",
+      "active": false,
+      "subThemes": [
+        {
+          "id": 39,
+          "name": "Terrain",
+          "active": false,
+          "categories": [
+            {
+              "id": 110,
+              "name": "Elevation",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 352,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(meters)"
+            },
+            {
+              "id": 111,
+              "name": "Surface Roughness",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 353,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(meters)"
+            },
+            {
+              "id": 112,
+              "name": "Land area with limited or no constraints",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 354,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of land area)"
+            },
+            {
+              "id": 113,
+              "name": "Land area equipped for irrigation",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 193,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 194,
+                  "name": "Ground Water",
+                  "active": false
+                },
+                {
+                  "id": 195,
+                  "name": "Surface Water",
+                  "active": false
+                }
+              ],
+              "unit": "Percent of Land Area"
+            },
+            {
+              "id": 114,
+              "name": "Land area actually irrigated",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 355,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "Percent of Land Area"
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "Natural resources",
+          "active": false,
+          "categories": [
+            {
+              "id": 115,
+              "name": "Cropland",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 356,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of area)"
+            },
+            {
+              "id": 116,
+              "name": "Forest",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 357,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of area)"
+            },
+            {
+              "id": 117,
+              "name": "Mineral Facilities",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 196,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 197,
+                  "name": "Public",
+                  "active": false
+                },
+                {
+                  "id": 198,
+                  "name": "Private",
+                  "active": false
+                },
+                {
+                  "id": 199,
+                  "name": "Foreign",
+                  "active": false
+                }
+              ],
+              "unit": "(number of facilities)"
+            },
+            {
+              "id": 118,
+              "name": "Mineral Production Capacity",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 358,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "thousand metric tons per year"
+            },
+            {
+              "id": 119,
+              "name": "Protected Land",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 200,
+                  "name": "Total",
+                  "active": false
+                },
+                {
+                  "id": 201,
+                  "name": "National",
+                  "active": false
+                },
+                {
+                  "id": 202,
+                  "name": "International",
+                  "active": false
+                }
+              ],
+              "unit": "percent of area"
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "name": "Climate",
+          "active": false,
+          "categories": [
+            {
+              "id": 120,
+              "name": "Monthly temperature",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 203,
+                  "name": "January",
+                  "active": false
+                },
+                {
+                  "id": 204,
+                  "name": "February",
+                  "active": false
+                },
+                {
+                  "id": 205,
+                  "name": "March",
+                  "active": false
+                },
+                {
+                  "id": 206,
+                  "name": "April",
+                  "active": false
+                },
+                {
+                  "id": 207,
+                  "name": "May",
+                  "active": false
+                },
+                {
+                  "id": 208,
+                  "name": "June",
+                  "active": false
+                },
+                {
+                  "id": 209,
+                  "name": "July",
+                  "active": false
+                },
+                {
+                  "id": 210,
+                  "name": "August",
+                  "active": false
+                },
+                {
+                  "id": 211,
+                  "name": "September",
+                  "active": false
+                },
+                {
+                  "id": 212,
+                  "name": "October",
+                  "active": false
+                },
+                {
+                  "id": 213,
+                  "name": "November",
+                  "active": false
+                },
+                {
+                  "id": 214,
+                  "name": "December",
+                  "active": false
+                }
+              ],
+              "unit": "(ºC)"
+            },
+            {
+              "id": 121,
+              "name": "Decadal average of monthly temperature",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 215,
+                  "name": "January",
+                  "active": false
+                },
+                {
+                  "id": 216,
+                  "name": "February",
+                  "active": false
+                },
+                {
+                  "id": 217,
+                  "name": "March",
+                  "active": false
+                },
+                {
+                  "id": 218,
+                  "name": "April",
+                  "active": false
+                },
+                {
+                  "id": 219,
+                  "name": "May",
+                  "active": false
+                },
+                {
+                  "id": 220,
+                  "name": "June",
+                  "active": false
+                },
+                {
+                  "id": 221,
+                  "name": "July",
+                  "active": false
+                },
+                {
+                  "id": 222,
+                  "name": "August",
+                  "active": false
+                },
+                {
+                  "id": 223,
+                  "name": "September",
+                  "active": false
+                },
+                {
+                  "id": 224,
+                  "name": "October",
+                  "active": false
+                },
+                {
+                  "id": 225,
+                  "name": "November",
+                  "active": false
+                },
+                {
+                  "id": 226,
+                  "name": "December",
+                  "active": false
+                }
+              ],
+              "unit": "(ºC)"
+            },
+            {
+              "id": 122,
+              "name": "Decadal variation of monthly temperature",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 227,
+                  "name": "January",
+                  "active": false
+                },
+                {
+                  "id": 228,
+                  "name": "February",
+                  "active": false
+                },
+                {
+                  "id": 229,
+                  "name": "March",
+                  "active": false
+                },
+                {
+                  "id": 230,
+                  "name": "April",
+                  "active": false
+                },
+                {
+                  "id": 231,
+                  "name": "May",
+                  "active": false
+                },
+                {
+                  "id": 232,
+                  "name": "June",
+                  "active": false
+                },
+                {
+                  "id": 233,
+                  "name": "July",
+                  "active": false
+                },
+                {
+                  "id": 234,
+                  "name": "August",
+                  "active": false
+                },
+                {
+                  "id": 235,
+                  "name": "September",
+                  "active": false
+                },
+                {
+                  "id": 236,
+                  "name": "October",
+                  "active": false
+                },
+                {
+                  "id": 237,
+                  "name": "November",
+                  "active": false
+                },
+                {
+                  "id": 238,
+                  "name": "December",
+                  "active": false
+                }
+              ],
+              "unit": "(ºC)"
+            },
+            {
+              "id": 123,
+              "name": "Temperature anomaly",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 239,
+                  "name": "January",
+                  "active": false
+                },
+                {
+                  "id": 240,
+                  "name": "February",
+                  "active": false
+                },
+                {
+                  "id": 241,
+                  "name": "March",
+                  "active": false
+                },
+                {
+                  "id": 242,
+                  "name": "April",
+                  "active": false
+                },
+                {
+                  "id": 243,
+                  "name": "May",
+                  "active": false
+                },
+                {
+                  "id": 244,
+                  "name": "June",
+                  "active": false
+                },
+                {
+                  "id": 245,
+                  "name": "July",
+                  "active": false
+                },
+                {
+                  "id": 246,
+                  "name": "August",
+                  "active": false
+                },
+                {
+                  "id": 247,
+                  "name": "September",
+                  "active": false
+                },
+                {
+                  "id": 248,
+                  "name": "October",
+                  "active": false
+                },
+                {
+                  "id": 249,
+                  "name": "November",
+                  "active": false
+                },
+                {
+                  "id": 250,
+                  "name": "December",
+                  "active": false
+                }
+              ],
+              "unit": "(ºC)"
+            },
+            {
+              "id": 124,
+              "name": "Precipitation",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 251,
+                  "name": "January",
+                  "active": false
+                },
+                {
+                  "id": 252,
+                  "name": "February",
+                  "active": false
+                },
+                {
+                  "id": 253,
+                  "name": "March",
+                  "active": false
+                },
+                {
+                  "id": 254,
+                  "name": "April",
+                  "active": false
+                },
+                {
+                  "id": 255,
+                  "name": "May",
+                  "active": false
+                },
+                {
+                  "id": 256,
+                  "name": "June",
+                  "active": false
+                },
+                {
+                  "id": 257,
+                  "name": "July",
+                  "active": false
+                },
+                {
+                  "id": 258,
+                  "name": "August",
+                  "active": false
+                },
+                {
+                  "id": 259,
+                  "name": "September",
+                  "active": false
+                },
+                {
+                  "id": 260,
+                  "name": "October",
+                  "active": false
+                },
+                {
+                  "id": 261,
+                  "name": "November",
+                  "active": false
+                },
+                {
+                  "id": 262,
+                  "name": "December",
+                  "active": false
+                }
+              ],
+              "unit": "(mm)"
+            },
+            {
+              "id": 125,
+              "name": "Decadal average of monthly precipitation",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 263,
+                  "name": "January",
+                  "active": false
+                },
+                {
+                  "id": 264,
+                  "name": "February",
+                  "active": false
+                },
+                {
+                  "id": 265,
+                  "name": "March",
+                  "active": false
+                },
+                {
+                  "id": 266,
+                  "name": "April",
+                  "active": false
+                },
+                {
+                  "id": 267,
+                  "name": "May",
+                  "active": false
+                },
+                {
+                  "id": 268,
+                  "name": "June",
+                  "active": false
+                },
+                {
+                  "id": 269,
+                  "name": "July",
+                  "active": false
+                },
+                {
+                  "id": 270,
+                  "name": "August",
+                  "active": false
+                },
+                {
+                  "id": 271,
+                  "name": "September",
+                  "active": false
+                },
+                {
+                  "id": 272,
+                  "name": "October",
+                  "active": false
+                },
+                {
+                  "id": 273,
+                  "name": "November",
+                  "active": false
+                },
+                {
+                  "id": 274,
+                  "name": "December",
+                  "active": false
+                }
+              ],
+              "unit": "(mm)"
+            },
+            {
+              "id": 126,
+              "name": "Decadal variation of monthly precipitation",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 275,
+                  "name": "January",
+                  "active": false
+                },
+                {
+                  "id": 276,
+                  "name": "February",
+                  "active": false
+                },
+                {
+                  "id": 277,
+                  "name": "March",
+                  "active": false
+                },
+                {
+                  "id": 278,
+                  "name": "April",
+                  "active": false
+                },
+                {
+                  "id": 279,
+                  "name": "May",
+                  "active": false
+                },
+                {
+                  "id": 280,
+                  "name": "June",
+                  "active": false
+                },
+                {
+                  "id": 281,
+                  "name": "July",
+                  "active": false
+                },
+                {
+                  "id": 282,
+                  "name": "August",
+                  "active": false
+                },
+                {
+                  "id": 283,
+                  "name": "September",
+                  "active": false
+                },
+                {
+                  "id": 284,
+                  "name": "October",
+                  "active": false
+                },
+                {
+                  "id": 285,
+                  "name": "November",
+                  "active": false
+                },
+                {
+                  "id": 286,
+                  "name": "December",
+                  "active": false
+                }
+              ],
+              "unit": "(mm)"
+            },
+            {
+              "id": 127,
+              "name": "Precipitation anomaly",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 287,
+                  "name": "January",
+                  "active": false
+                },
+                {
+                  "id": 288,
+                  "name": "February",
+                  "active": false
+                },
+                {
+                  "id": 289,
+                  "name": "March",
+                  "active": false
+                },
+                {
+                  "id": 290,
+                  "name": "April",
+                  "active": false
+                },
+                {
+                  "id": 291,
+                  "name": "May",
+                  "active": false
+                },
+                {
+                  "id": 292,
+                  "name": "June",
+                  "active": false
+                },
+                {
+                  "id": 293,
+                  "name": "July",
+                  "active": false
+                },
+                {
+                  "id": 294,
+                  "name": "August",
+                  "active": false
+                },
+                {
+                  "id": 295,
+                  "name": "September",
+                  "active": false
+                },
+                {
+                  "id": 296,
+                  "name": "October",
+                  "active": false
+                },
+                {
+                  "id": 297,
+                  "name": "November",
+                  "active": false
+                },
+                {
+                  "id": 298,
+                  "name": "December",
+                  "active": false
+                }
+              ],
+              "unit": "(mm)"
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "name": "Pollution",
+          "active": false,
+          "categories": [
+            {
+              "id": 128,
+              "name": "Carbon monoxide levels",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 359,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(parts per billion by volume)"
+            },
+            {
+              "id": 129,
+              "name": "Nitrogen dioxide levels",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 360,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(billion molecules/mm2)"
+            },
+            {
+              "id": 130,
+              "name": "Aerosol particle radius",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 361,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(percent of small particles)"
+            },
+            {
+              "id": 131,
+              "name": "Aerosol optical thickness",
+              "active": false,
+              "indicators": [
+                {
+                  "id": 362,
+                  "name": "Total",
+                  "active": false
+                }
+              ],
+              "unit": "(thickness scale  0–1)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "loaded"
+}
