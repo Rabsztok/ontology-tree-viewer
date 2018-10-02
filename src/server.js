@@ -8,6 +8,7 @@ import { getSnapshot, addMiddleware } from 'mobx-state-tree'
 import OntologyStore from 'stores/ontology_store/ontology_store'
 import Arboris from 'arboris'
 import template from 'lodash/template'
+// eslint-disable-next-line
 import indexFile from '!!raw-loader!./index.html'
 
 const assets = require(process.env.RAZZLE_ASSETS_MANIFEST)
