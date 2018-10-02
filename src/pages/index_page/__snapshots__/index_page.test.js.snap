@@ -1,0 +1,3249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IndexPage renders loaded component without errors 1`] = `
+<inject-withRouter(Tree)-with-store
+  branches={
+    Array [
+      Object {
+        "active": false,
+        "id": 1,
+        "name": "Urban Extent",
+        "subThemes": Array [
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 1,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 299,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Area",
+                "unit": "(sq. km.)",
+              },
+              Object {
+                "active": false,
+                "id": 2,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 300,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Population",
+                "unit": "(thousands)",
+              },
+              Object {
+                "active": false,
+                "id": 3,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 301,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Population density",
+                "unit": "(people per sq. km.)",
+              },
+            ],
+            "id": 1,
+            "name": "Administrative",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 4,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 302,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Area",
+                "unit": "(sq. km.)",
+              },
+              Object {
+                "active": false,
+                "id": 5,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 303,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Population",
+                "unit": "(thousands)",
+              },
+              Object {
+                "active": false,
+                "id": 6,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 304,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Population density",
+                "unit": "(people per sq. km.)",
+              },
+            ],
+            "id": 2,
+            "name": "Built up",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 7,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 305,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Area",
+                "unit": "(sq. km.)",
+              },
+              Object {
+                "active": false,
+                "id": 8,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 306,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Population",
+                "unit": "(thousands)",
+              },
+              Object {
+                "active": false,
+                "id": 9,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 307,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Population density",
+                "unit": "(people per sq. km.)",
+              },
+            ],
+            "id": 3,
+            "name": "Lit at night",
+          },
+        ],
+      },
+      Object {
+        "active": false,
+        "id": 2,
+        "name": "Demographics",
+        "subThemes": Array [
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 10,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 308,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Crude birth rate",
+                "unit": "(live births per 1000 people)",
+              },
+              Object {
+                "active": false,
+                "id": 11,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 1,
+                    "name": "total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 2,
+                    "name": "male",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 3,
+                    "name": "female",
+                  },
+                ],
+                "name": "Crude death rate",
+                "unit": "(deaths per 1000 people)",
+              },
+            ],
+            "id": 4,
+            "name": "Births and Deaths",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 12,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 4,
+                    "name": "0-14 or 65+ years",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 5,
+                    "name": "0-14 years",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 6,
+                    "name": "65+ years",
+                  },
+                ],
+                "name": "Dependency ratio",
+                "unit": "(percent)",
+              },
+              Object {
+                "active": false,
+                "id": 13,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 7,
+                    "name": "All ages",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 8,
+                    "name": "At birth",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 9,
+                    "name": "0-4 years",
+                  },
+                ],
+                "name": "Gender ratio",
+                "unit": "(percent)",
+              },
+            ],
+            "id": 5,
+            "name": "Age and Sex",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 14,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 309,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Scheduled Caste (SC)",
+                "unit": "(percent)",
+              },
+              Object {
+                "active": false,
+                "id": 15,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 310,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Scheduled Tribe (ST)",
+                "unit": "(percent)",
+              },
+            ],
+            "id": 6,
+            "name": "Religion and social groups",
+          },
+        ],
+      },
+      Object {
+        "active": false,
+        "id": 3,
+        "name": "Jobs",
+        "subThemes": Array [
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 16,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 10,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 11,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 12,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Working population, 15+ years",
+                "unit": "(percent)",
+              },
+              Object {
+                "active": false,
+                "id": 17,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 13,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 14,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 15,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Working population, 7+ years",
+                "unit": "(percent)",
+              },
+              Object {
+                "active": false,
+                "id": 18,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 16,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 17,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 18,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Labor force participation, 15+ years, usual",
+                "unit": "(percent of age group)",
+              },
+              Object {
+                "active": false,
+                "id": 19,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 19,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 20,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 21,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Labor force participation, 15+ years, weekly",
+                "unit": "(percent of age group)",
+              },
+              Object {
+                "active": false,
+                "id": 20,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 22,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 23,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 24,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Employment rate, 7+ years, main + marginal",
+                "unit": "(percent of age group)",
+              },
+            ],
+            "id": 7,
+            "name": "Labor force",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 21,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 25,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 26,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 27,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Unemployment rate, 15+ years, usual",
+                "unit": "(percent of labor force)",
+              },
+              Object {
+                "active": false,
+                "id": 22,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 28,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 29,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 30,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Unemployment rate, 15+ years, weekly",
+                "unit": "(percent of labor force)",
+              },
+              Object {
+                "active": false,
+                "id": 23,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 31,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 32,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 33,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Unemployment rate, 15–24 years, usual",
+                "unit": "(percent of labor force)",
+              },
+              Object {
+                "active": false,
+                "id": 24,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 34,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 35,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 36,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Unemployment rate, 15–24 years, weekly",
+                "unit": "(percent of labor force)",
+              },
+              Object {
+                "active": false,
+                "id": 25,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 37,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 38,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 39,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Under-employment rate, 15+ years, marginal",
+                "unit": "(percent of labor force)",
+              },
+            ],
+            "id": 8,
+            "name": "Unemployment",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 26,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 40,
+                    "name": "Agriculture",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 41,
+                    "name": "Manufacturing",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 42,
+                    "name": "Industry (including manufacturing)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 43,
+                    "name": "Services",
+                  },
+                ],
+                "name": "Employment by sector",
+                "unit": "(percent of total employment)",
+              },
+              Object {
+                "active": false,
+                "id": 27,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 44,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 45,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 46,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Farmers",
+                "unit": "(percent of total employment)",
+              },
+              Object {
+                "active": false,
+                "id": 28,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 47,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 48,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 49,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Self-employed",
+                "unit": "(percent of total employment)",
+              },
+              Object {
+                "active": false,
+                "id": 29,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 50,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 51,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 52,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Casual wage earners",
+                "unit": "(percent of total employment)",
+              },
+              Object {
+                "active": false,
+                "id": 30,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 53,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 54,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 55,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Regular wage earners",
+                "unit": "(percent of total employment)",
+              },
+            ],
+            "id": 9,
+            "name": "Employment",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 31,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 56,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 57,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 58,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Labor earnings by gender",
+                "unit": "(current USD per day)",
+              },
+              Object {
+                "active": false,
+                "id": 32,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 59,
+                    "name": "Agriculture",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 60,
+                    "name": "Industry",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 61,
+                    "name": "Services",
+                  },
+                ],
+                "name": "Labor earnings by sector",
+                "unit": "(current USD per day)",
+              },
+            ],
+            "id": 10,
+            "name": "Earnings",
+          },
+        ],
+      },
+      Object {
+        "active": false,
+        "id": 4,
+        "name": "Economic Activity",
+        "subThemes": Array [
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 33,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 311,
+                    "name": "Total",
+                  },
+                ],
+                "name": "GDP",
+                "unit": "(current USD, in millions)",
+              },
+              Object {
+                "active": false,
+                "id": 34,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 312,
+                    "name": "Total",
+                  },
+                ],
+                "name": "GDP per capita",
+                "unit": "(current USD)",
+              },
+              Object {
+                "active": false,
+                "id": 35,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 62,
+                    "name": "Agriculture, fishing, hunting and forestry (A, B)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 63,
+                    "name": "Mining and quarrying (C)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 64,
+                    "name": "Manufacturing (D)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 65,
+                    "name": "Electricity, gas and water supply (E)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 66,
+                    "name": "Construction (F)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 67,
+                    "name": "Trade, hotels and restaurants (G, H)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 68,
+                    "name": "Transportation, storage and communications (I)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 69,
+                    "name": "Financial intermediation (J)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 70,
+                    "name": "Real estate, renting and business activities (K)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 71,
+                    "name": "Public administration (L)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 72,
+                    "name": "Other (M, N, O, P, Q)",
+                  },
+                ],
+                "name": "GVA by sector, ISIC 3.1",
+                "unit": "(percent of GDP)",
+              },
+            ],
+            "id": 11,
+            "name": "Output",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 36,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 313,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Light intensity per 1000 people",
+                "unit": "(Digital Numbers of light per 1000 people)",
+              },
+              Object {
+                "active": false,
+                "id": 37,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 314,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Light intensity per area",
+                "unit": "(Digital Numbers of light per sq. km.) ",
+              },
+            ],
+            "id": 12,
+            "name": "Night light intensity",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 38,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 73,
+                    "name": "All",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 74,
+                    "name": "Groundnut",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 75,
+                    "name": "Maize",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 76,
+                    "name": "Millets",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 77,
+                    "name": "Pulses",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 78,
+                    "name": "Rice",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 79,
+                    "name": "Sugar cane",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 80,
+                    "name": "Wheat",
+                  },
+                ],
+                "name": "Crop yields, monetary",
+                "unit": "(2011 USD per ha., in thousands)",
+              },
+              Object {
+                "active": false,
+                "id": 39,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 81,
+                    "name": "All",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 82,
+                    "name": "Groundnut",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 83,
+                    "name": "Maize",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 84,
+                    "name": "Millets",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 85,
+                    "name": "Pulses",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 86,
+                    "name": "Rice",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 87,
+                    "name": "Sugar cane",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 88,
+                    "name": "Wheat",
+                  },
+                ],
+                "name": "Crop yields, quantity",
+                "unit": "(tonnes per ha.)",
+              },
+            ],
+            "id": 13,
+            "name": "Productivity of agriculture",
+          },
+          Object {
+            "active": false,
+            "categories": Array [],
+            "id": 14,
+            "name": "Productivity of manufacturing",
+          },
+          Object {
+            "active": false,
+            "categories": Array [],
+            "id": 15,
+            "name": "Productivity of services",
+          },
+        ],
+      },
+      Object {
+        "active": false,
+        "id": 5,
+        "name": "Infrastructure",
+        "subThemes": Array [
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 40,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 89,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 90,
+                    "name": "Major highways, primary and secondary",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 91,
+                    "name": "Tertiary and rural",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 92,
+                    "name": "Other",
+                  },
+                ],
+                "name": "Road length",
+                "unit": "(km.)",
+              },
+              Object {
+                "active": false,
+                "id": 41,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 93,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 94,
+                    "name": "Major highways, primary and secondary",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 95,
+                    "name": "Tertiary and rural",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 96,
+                    "name": "Other",
+                  },
+                ],
+                "name": "Road intensity",
+                "unit": "(km. per 1000 sq. km.)",
+              },
+              Object {
+                "active": false,
+                "id": 42,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 97,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 98,
+                    "name": "Railway",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 99,
+                    "name": "Metro",
+                  },
+                ],
+                "name": "Number of stations",
+                "unit": "(stations)",
+              },
+              Object {
+                "active": false,
+                "id": 43,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 100,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 101,
+                    "name": "Railway",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 102,
+                    "name": "Metro",
+                  },
+                ],
+                "name": "Density of stations",
+                "unit": "(stations per 1000 sq. km.)",
+              },
+            ],
+            "id": 16,
+            "name": "Connectivity",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 44,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 103,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 104,
+                    "name": "Slums",
+                  },
+                ],
+                "name": "Households’ access to electricity",
+                "unit": "(percent of households)",
+              },
+              Object {
+                "active": false,
+                "id": 45,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 105,
+                    "name": "Biomass",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 106,
+                    "name": "Coal/lignite/charcoal",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 107,
+                    "name": "Kerosene",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 108,
+                    "name": "LPG/PNG",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 109,
+                    "name": "Electricity",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 110,
+                    "name": "Biogas",
+                  },
+                ],
+                "name": "Households’ use of fuel for cooking",
+                "unit": "(percent of households)",
+              },
+              Object {
+                "active": false,
+                "id": 46,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 111,
+                    "name": "Kerosene",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 112,
+                    "name": "Gas/other oil",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 113,
+                    "name": "Electricity",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 114,
+                    "name": "Candle/others",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 115,
+                    "name": "No lighting arrangement",
+                  },
+                ],
+                "name": "Households’ use of fuel for light",
+                "unit": "(percent of households)",
+              },
+              Object {
+                "active": false,
+                "id": 47,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 116,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 117,
+                    "name": "Public",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 118,
+                    "name": "Private",
+                  },
+                ],
+                "name": "Non-agriculture enterprises’ use of electricity",
+                "unit": "(percent of establishments)",
+              },
+            ],
+            "id": 17,
+            "name": "Energy",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 48,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 119,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 120,
+                    "name": "Slums",
+                  },
+                ],
+                "name": "Households’ access to improved water",
+                "unit": "(percent of households)",
+              },
+              Object {
+                "active": false,
+                "id": 49,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 121,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 122,
+                    "name": "Slums",
+                  },
+                ],
+                "name": "Households’ access to improved sanitation",
+                "unit": "(percent of households)",
+              },
+              Object {
+                "active": false,
+                "id": 50,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 123,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 124,
+                    "name": "Slums",
+                  },
+                ],
+                "name": "Households’ access to enhanced improved sanitation",
+                "unit": "(percent of households)",
+              },
+            ],
+            "id": 18,
+            "name": "Water and Sanitation",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 51,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 125,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 126,
+                    "name": "Slums",
+                  },
+                ],
+                "name": "Housing units in good condition",
+                "unit": "(percent of households)",
+              },
+              Object {
+                "active": false,
+                "id": 52,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 315,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Housing units located in slums",
+                "unit": "(percent of housing units)",
+              },
+              Object {
+                "active": false,
+                "id": 53,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 127,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 128,
+                    "name": "Slums",
+                  },
+                ],
+                "name": "Use of biomass to cook indoors",
+                "unit": "(percent of households)",
+              },
+            ],
+            "id": 19,
+            "name": "Housing",
+          },
+        ],
+      },
+      Object {
+        "active": false,
+        "id": 6,
+        "name": "Information Technology",
+        "subThemes": Array [
+          Object {
+            "active": false,
+            "categories": Array [],
+            "id": 20,
+            "name": "Computer",
+          },
+          Object {
+            "active": false,
+            "categories": Array [],
+            "id": 21,
+            "name": "Internet",
+          },
+          Object {
+            "active": false,
+            "categories": Array [],
+            "id": 22,
+            "name": "Cellphone",
+          },
+        ],
+      },
+      Object {
+        "active": false,
+        "id": 7,
+        "name": "Finance",
+        "subThemes": Array [
+          Object {
+            "active": false,
+            "categories": Array [],
+            "id": 23,
+            "name": "Access",
+          },
+        ],
+      },
+      Object {
+        "active": false,
+        "id": 8,
+        "name": "Business",
+        "subThemes": Array [
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 54,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 316,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Non-agriculture enterprises",
+                "unit": "(thousands)",
+              },
+              Object {
+                "active": false,
+                "id": 55,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 129,
+                    "name": "1",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 130,
+                    "name": "2-5",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 131,
+                    "name": "6-9",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 132,
+                    "name": "10–19",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 133,
+                    "name": "20–99",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 134,
+                    "name": "100+",
+                  },
+                ],
+                "name": "Non-agriculture enterprises by size",
+                "unit": "(percent of establishments)",
+              },
+              Object {
+                "active": false,
+                "id": 56,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 135,
+                    "name": "Mining and quarrying (C)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 136,
+                    "name": "Manufacturing (D)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 137,
+                    "name": "Electricity, gas and water supply (E)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 138,
+                    "name": "Construction (F)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 139,
+                    "name": "Trade, hotels and restaurants (G, H)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 140,
+                    "name": "Transportation, storage and communications (I)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 141,
+                    "name": "Financial intermediation (J)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 142,
+                    "name": "Real estate, renting and business activities (K)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 143,
+                    "name": "Public administration (L)",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 144,
+                    "name": "Education, health and social (M, N, O)",
+                  },
+                ],
+                "name": "Non-agriculture enterprises by sector, ISIC 3.1",
+                "unit": "(percent of establishments)",
+              },
+              Object {
+                "active": false,
+                "id": 57,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 145,
+                    "name": "2 digit",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 146,
+                    "name": "4 digit",
+                  },
+                ],
+                "name": "Specialization index of private non-agriculture enterprises, ISIC 3.1",
+                "unit": "(index)",
+              },
+              Object {
+                "active": false,
+                "id": 58,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 147,
+                    "name": "2 digit",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 148,
+                    "name": "4 digit",
+                  },
+                ],
+                "name": "Diversification index of private non-agriculture enterprises, ISIC 3.1",
+                "unit": "(index)",
+              },
+              Object {
+                "active": false,
+                "id": 59,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 149,
+                    "name": "Public",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 150,
+                    "name": "Private",
+                  },
+                ],
+                "name": "Non-agriculture enterprises by ownership",
+                "unit": "(percent of establishments)",
+              },
+            ],
+            "id": 24,
+            "name": "Economic census",
+          },
+          Object {
+            "active": false,
+            "categories": Array [],
+            "id": 25,
+            "name": "Formal manufacturing",
+          },
+          Object {
+            "active": false,
+            "categories": Array [],
+            "id": 26,
+            "name": "Informal manufacturing",
+          },
+          Object {
+            "active": false,
+            "categories": Array [],
+            "id": 27,
+            "name": "Informal services",
+          },
+        ],
+      },
+      Object {
+        "active": false,
+        "id": 9,
+        "name": "Living Standards",
+        "subThemes": Array [
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 60,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 317,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Household per capita expenditure",
+                "unit": "(current USD per capita per month)",
+              },
+              Object {
+                "active": false,
+                "id": 61,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 318,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Poverty rate at $1.25 a day (PPP)",
+                "unit": "(percent of population)",
+              },
+              Object {
+                "active": false,
+                "id": 62,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 319,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Poverty rate at national poverty line",
+                "unit": "(percent of population)",
+              },
+              Object {
+                "active": false,
+                "id": 63,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 320,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Share of bottom 40 percent",
+                "unit": "(percent of population)",
+              },
+              Object {
+                "active": false,
+                "id": 64,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 321,
+                    "name": "Total",
+                  },
+                ],
+                "name": "90 to 10 ratio of per capita expenditure",
+                "unit": "(ratio)",
+              },
+              Object {
+                "active": false,
+                "id": 65,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 322,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Gini coefficient of per capita expenditure",
+                "unit": "(percent)",
+              },
+              Object {
+                "active": false,
+                "id": 66,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 323,
+                    "name": "Total",
+                  },
+                ],
+                "name": "MLD of per capita expenditure",
+                "unit": "(index)",
+              },
+            ],
+            "id": 28,
+            "name": "Consumption",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 67,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 151,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 152,
+                    "name": "Slums",
+                  },
+                ],
+                "name": "Access to all key durable assets",
+                "unit": "(percent of households)",
+              },
+              Object {
+                "active": false,
+                "id": 68,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 153,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 154,
+                    "name": "Slums",
+                  },
+                ],
+                "name": "Lack of access to durable assets",
+                "unit": "(percent of households)",
+              },
+              Object {
+                "active": false,
+                "id": 69,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 324,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Housing ownership",
+                "unit": "(percent of households)",
+              },
+              Object {
+                "active": false,
+                "id": 70,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 325,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Land ownership",
+                "unit": "(percent of households)",
+              },
+              Object {
+                "active": false,
+                "id": 71,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 326,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Gini coefficient of landholding",
+                "unit": "(percent)",
+              },
+              Object {
+                "active": false,
+                "id": 72,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 327,
+                    "name": "Total",
+                  },
+                ],
+                "name": "MLD of landholding",
+                "unit": "(index)",
+              },
+            ],
+            "id": 29,
+            "name": "Wealth",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 73,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 155,
+                    "name": "total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 156,
+                    "name": "slums",
+                  },
+                ],
+                "name": "People per household",
+                "unit": "(people)",
+              },
+              Object {
+                "active": false,
+                "id": 74,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 157,
+                    "name": "total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 158,
+                    "name": "slums",
+                  },
+                ],
+                "name": "People per room",
+                "unit": "(people)",
+              },
+              Object {
+                "active": false,
+                "id": 75,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 159,
+                    "name": "total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 160,
+                    "name": "slums",
+                  },
+                ],
+                "name": "Overcrowding",
+                "unit": "(percent of housing units)",
+              },
+            ],
+            "id": 30,
+            "name": "Household size",
+          },
+        ],
+      },
+      Object {
+        "active": false,
+        "id": 10,
+        "name": "Health",
+        "subThemes": Array [
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 76,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 328,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Underweight",
+                "unit": "(percent of children, 0-4 years)",
+              },
+              Object {
+                "active": false,
+                "id": 77,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 329,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Wasting",
+                "unit": "(percent of children, 0-4 years)",
+              },
+              Object {
+                "active": false,
+                "id": 78,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 330,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Stunting",
+                "unit": "(percent of children, 0-4 years)",
+              },
+            ],
+            "id": 31,
+            "name": "Nutrition",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 79,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 331,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Secondary health care centers",
+                "unit": "(per 1,000 people)",
+              },
+              Object {
+                "active": false,
+                "id": 80,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 332,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Primary health care centers",
+                "unit": "(per 1,000 people)",
+              },
+              Object {
+                "active": false,
+                "id": 81,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 333,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Institutional births",
+                "unit": "(percent of population group)",
+              },
+              Object {
+                "active": false,
+                "id": 82,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 334,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Diarrhea treatment",
+                "unit": "(percent of population group)",
+              },
+              Object {
+                "active": false,
+                "id": 83,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 335,
+                    "name": "Total",
+                  },
+                ],
+                "name": "DPT immunization",
+                "unit": "(percent of population group)",
+              },
+              Object {
+                "active": false,
+                "id": 84,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 336,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Full immunization",
+                "unit": "(percent of population group)",
+              },
+            ],
+            "id": 32,
+            "name": "Health Services",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 85,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 337,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Three ante-natal care visits",
+                "unit": "(percent of population group)",
+              },
+              Object {
+                "active": false,
+                "id": 86,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 338,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Female use of condom ",
+                "unit": "(percent of population group)",
+              },
+              Object {
+                "active": false,
+                "id": 87,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 339,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Female contraceptive prevalence ",
+                "unit": "(percent of population group)",
+              },
+            ],
+            "id": 33,
+            "name": "Reproductive Health",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 88,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 161,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 162,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 163,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Infant mortality rate",
+                "unit": "(deaths per 1,000 live births)",
+              },
+              Object {
+                "active": false,
+                "id": 89,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 340,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Neonatal mortality rate",
+                "unit": "(deaths per 1,000 live births)",
+              },
+              Object {
+                "active": false,
+                "id": 90,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 164,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 165,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 166,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Under-five mortality rate",
+                "unit": "(deaths per 1,000 live births)",
+              },
+              Object {
+                "active": false,
+                "id": 91,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 167,
+                    "name": "Acute respiratory infection",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 168,
+                    "name": "Diarrhea",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 169,
+                    "name": "Fever",
+                  },
+                ],
+                "name": "Acute illness among children",
+                "unit": "(percent of children, 0–4 years)",
+              },
+              Object {
+                "active": false,
+                "id": 92,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 170,
+                    "name": "Acute respiratory infection",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 171,
+                    "name": "Diarrhea",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 172,
+                    "name": "Fever",
+                  },
+                ],
+                "name": "Acute illness",
+                "unit": "(per 100,000 people)",
+              },
+              Object {
+                "active": false,
+                "id": 93,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 173,
+                    "name": "Arthritis",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 174,
+                    "name": "Asthma",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 175,
+                    "name": "Diabetes",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 176,
+                    "name": "Hypertension",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 177,
+                    "name": "Tuberculosis",
+                  },
+                ],
+                "name": "Chronic illness",
+                "unit": "(per 100,000 people)",
+              },
+            ],
+            "id": 34,
+            "name": "Mortality and morbidity",
+          },
+        ],
+      },
+      Object {
+        "active": false,
+        "id": 11,
+        "name": "Education",
+        "subThemes": Array [
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 94,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 178,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 179,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 180,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Gross primary enrollment",
+                "unit": "(percent of population group)",
+              },
+              Object {
+                "active": false,
+                "id": 95,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 341,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Out-of-school children",
+                "unit": "(percent of population group)",
+              },
+            ],
+            "id": 35,
+            "name": "Enrollment",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 96,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 181,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 182,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 183,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Literacy rate, 7+ years",
+                "unit": "(percent of population group)",
+              },
+              Object {
+                "active": false,
+                "id": 97,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 184,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 185,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 186,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Literacy rate, 15+ years",
+                "unit": "(percent of population group)",
+              },
+              Object {
+                "active": false,
+                "id": 98,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 187,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 188,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 189,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Secondary education completion rate, 15+ years",
+                "unit": "(percent of population group)",
+              },
+              Object {
+                "active": false,
+                "id": 99,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 190,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 191,
+                    "name": "Female",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 192,
+                    "name": "Male",
+                  },
+                ],
+                "name": "Tertiary education completion rate, 15+ years",
+                "unit": "(percent of population group)",
+              },
+            ],
+            "id": 36,
+            "name": "Attainment",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 100,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 342,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Children who can recognize numbers 1–9",
+                "unit": "(percent of population group)",
+              },
+              Object {
+                "active": false,
+                "id": 101,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 343,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Children who can read letters or words",
+                "unit": "(percent of population group)",
+              },
+              Object {
+                "active": false,
+                "id": 102,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 344,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Children who can do subtraction",
+                "unit": "(percent of population group)",
+              },
+              Object {
+                "active": false,
+                "id": 103,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 345,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Children who can read Grade 1 text",
+                "unit": "(percent of population group)",
+              },
+            ],
+            "id": 37,
+            "name": "Learning",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 104,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 346,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Classrooms in good condition in primary schools",
+                "unit": "(percent of classrooms)",
+              },
+              Object {
+                "active": false,
+                "id": 105,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 347,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Access to electricity in primary schools",
+                "unit": "(percentof schools)",
+              },
+              Object {
+                "active": false,
+                "id": 106,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 348,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Girls’ toilets in primary schools",
+                "unit": "(percent of schools with girls)",
+              },
+              Object {
+                "active": false,
+                "id": 107,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 349,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Drinking water facility in primary schools",
+                "unit": "(percent of schools)",
+              },
+              Object {
+                "active": false,
+                "id": 108,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 350,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Pupil-teacher ratio in primary schools",
+                "unit": "(students per teacher)",
+              },
+              Object {
+                "active": false,
+                "id": 109,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 351,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Pupil-teacher ratio over 30 in primary schools",
+                "unit": "(percent of schools)",
+              },
+            ],
+            "id": 38,
+            "name": "Education Services",
+          },
+        ],
+      },
+      Object {
+        "active": false,
+        "id": 12,
+        "name": "Environment",
+        "subThemes": Array [
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 110,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 352,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Elevation",
+                "unit": "(meters)",
+              },
+              Object {
+                "active": false,
+                "id": 111,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 353,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Surface Roughness",
+                "unit": "(meters)",
+              },
+              Object {
+                "active": false,
+                "id": 112,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 354,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Land area with limited or no constraints",
+                "unit": "(percent of land area)",
+              },
+              Object {
+                "active": false,
+                "id": 113,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 193,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 194,
+                    "name": "Ground Water",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 195,
+                    "name": "Surface Water",
+                  },
+                ],
+                "name": "Land area equipped for irrigation",
+                "unit": "Percent of Land Area",
+              },
+              Object {
+                "active": false,
+                "id": 114,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 355,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Land area actually irrigated",
+                "unit": "Percent of Land Area",
+              },
+            ],
+            "id": 39,
+            "name": "Terrain",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 115,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 356,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Cropland",
+                "unit": "(percent of area)",
+              },
+              Object {
+                "active": false,
+                "id": 116,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 357,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Forest",
+                "unit": "(percent of area)",
+              },
+              Object {
+                "active": false,
+                "id": 117,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 196,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 197,
+                    "name": "Public",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 198,
+                    "name": "Private",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 199,
+                    "name": "Foreign",
+                  },
+                ],
+                "name": "Mineral Facilities",
+                "unit": "(number of facilities)",
+              },
+              Object {
+                "active": false,
+                "id": 118,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 358,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Mineral Production Capacity",
+                "unit": "thousand metric tons per year",
+              },
+              Object {
+                "active": false,
+                "id": 119,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 200,
+                    "name": "Total",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 201,
+                    "name": "National",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 202,
+                    "name": "International",
+                  },
+                ],
+                "name": "Protected Land",
+                "unit": "percent of area",
+              },
+            ],
+            "id": 40,
+            "name": "Natural resources",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 120,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 203,
+                    "name": "January",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 204,
+                    "name": "February",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 205,
+                    "name": "March",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 206,
+                    "name": "April",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 207,
+                    "name": "May",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 208,
+                    "name": "June",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 209,
+                    "name": "July",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 210,
+                    "name": "August",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 211,
+                    "name": "September",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 212,
+                    "name": "October",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 213,
+                    "name": "November",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 214,
+                    "name": "December",
+                  },
+                ],
+                "name": "Monthly temperature",
+                "unit": "(ºC)",
+              },
+              Object {
+                "active": false,
+                "id": 121,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 215,
+                    "name": "January",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 216,
+                    "name": "February",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 217,
+                    "name": "March",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 218,
+                    "name": "April",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 219,
+                    "name": "May",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 220,
+                    "name": "June",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 221,
+                    "name": "July",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 222,
+                    "name": "August",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 223,
+                    "name": "September",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 224,
+                    "name": "October",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 225,
+                    "name": "November",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 226,
+                    "name": "December",
+                  },
+                ],
+                "name": "Decadal average of monthly temperature",
+                "unit": "(ºC)",
+              },
+              Object {
+                "active": false,
+                "id": 122,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 227,
+                    "name": "January",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 228,
+                    "name": "February",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 229,
+                    "name": "March",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 230,
+                    "name": "April",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 231,
+                    "name": "May",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 232,
+                    "name": "June",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 233,
+                    "name": "July",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 234,
+                    "name": "August",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 235,
+                    "name": "September",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 236,
+                    "name": "October",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 237,
+                    "name": "November",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 238,
+                    "name": "December",
+                  },
+                ],
+                "name": "Decadal variation of monthly temperature",
+                "unit": "(ºC)",
+              },
+              Object {
+                "active": false,
+                "id": 123,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 239,
+                    "name": "January",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 240,
+                    "name": "February",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 241,
+                    "name": "March",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 242,
+                    "name": "April",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 243,
+                    "name": "May",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 244,
+                    "name": "June",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 245,
+                    "name": "July",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 246,
+                    "name": "August",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 247,
+                    "name": "September",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 248,
+                    "name": "October",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 249,
+                    "name": "November",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 250,
+                    "name": "December",
+                  },
+                ],
+                "name": "Temperature anomaly",
+                "unit": "(ºC)",
+              },
+              Object {
+                "active": false,
+                "id": 124,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 251,
+                    "name": "January",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 252,
+                    "name": "February",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 253,
+                    "name": "March",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 254,
+                    "name": "April",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 255,
+                    "name": "May",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 256,
+                    "name": "June",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 257,
+                    "name": "July",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 258,
+                    "name": "August",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 259,
+                    "name": "September",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 260,
+                    "name": "October",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 261,
+                    "name": "November",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 262,
+                    "name": "December",
+                  },
+                ],
+                "name": "Precipitation",
+                "unit": "(mm)",
+              },
+              Object {
+                "active": false,
+                "id": 125,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 263,
+                    "name": "January",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 264,
+                    "name": "February",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 265,
+                    "name": "March",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 266,
+                    "name": "April",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 267,
+                    "name": "May",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 268,
+                    "name": "June",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 269,
+                    "name": "July",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 270,
+                    "name": "August",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 271,
+                    "name": "September",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 272,
+                    "name": "October",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 273,
+                    "name": "November",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 274,
+                    "name": "December",
+                  },
+                ],
+                "name": "Decadal average of monthly precipitation",
+                "unit": "(mm)",
+              },
+              Object {
+                "active": false,
+                "id": 126,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 275,
+                    "name": "January",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 276,
+                    "name": "February",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 277,
+                    "name": "March",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 278,
+                    "name": "April",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 279,
+                    "name": "May",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 280,
+                    "name": "June",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 281,
+                    "name": "July",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 282,
+                    "name": "August",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 283,
+                    "name": "September",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 284,
+                    "name": "October",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 285,
+                    "name": "November",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 286,
+                    "name": "December",
+                  },
+                ],
+                "name": "Decadal variation of monthly precipitation",
+                "unit": "(mm)",
+              },
+              Object {
+                "active": false,
+                "id": 127,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 287,
+                    "name": "January",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 288,
+                    "name": "February",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 289,
+                    "name": "March",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 290,
+                    "name": "April",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 291,
+                    "name": "May",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 292,
+                    "name": "June",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 293,
+                    "name": "July",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 294,
+                    "name": "August",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 295,
+                    "name": "September",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 296,
+                    "name": "October",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 297,
+                    "name": "November",
+                  },
+                  Object {
+                    "active": false,
+                    "id": 298,
+                    "name": "December",
+                  },
+                ],
+                "name": "Precipitation anomaly",
+                "unit": "(mm)",
+              },
+            ],
+            "id": 41,
+            "name": "Climate",
+          },
+          Object {
+            "active": false,
+            "categories": Array [
+              Object {
+                "active": false,
+                "id": 128,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 359,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Carbon monoxide levels",
+                "unit": "(parts per billion by volume)",
+              },
+              Object {
+                "active": false,
+                "id": 129,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 360,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Nitrogen dioxide levels",
+                "unit": "(billion molecules/mm2)",
+              },
+              Object {
+                "active": false,
+                "id": 130,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 361,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Aerosol particle radius",
+                "unit": "(percent of small particles)",
+              },
+              Object {
+                "active": false,
+                "id": 131,
+                "indicators": Array [
+                  Object {
+                    "active": false,
+                    "id": 362,
+                    "name": "Total",
+                  },
+                ],
+                "name": "Aerosol optical thickness",
+                "unit": "(thickness scale  0–1)",
+              },
+            ],
+            "id": 42,
+            "name": "Pollution",
+          },
+        ],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`IndexPage renders message for error status 1`] = `
+<styled.div>
+  Could not load resource.
+</styled.div>
+`;
+
+exports[`IndexPage renders message for loading status 1`] = `
+<styled.div>
+  Loading data...
+</styled.div>
+`;

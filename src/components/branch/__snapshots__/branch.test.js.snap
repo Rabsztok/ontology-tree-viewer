@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Branch renders without errors 1`] = `
+<styled.div>
+  <styled.div
+    active={false}
+  >
+    Branch
+  </styled.div>
+  <styled.div />
+</styled.div>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Leaf renders without errors 1`] = `
+<styled.div
+  active={false}
+  onClick={[Function]}
+>
+  total
+</styled.div>
+`;

@@ -4,6 +4,8 @@ import OntologyStore from './ontology_store'
 import response from '__mocks__/api/input.json'
 import apiClient from 'utils/api_client'
 import MockAdapter from 'axios-mock-adapter'
+import Indicator from 'models/indicator/indicator'
+import * as mst from 'mobx-state-tree'
 
 describe('OntologyStore', () => {
   const sandbox = createSandbox()
@@ -13,7 +15,7 @@ describe('OntologyStore', () => {
   beforeEach(() => {
     store = OntologyStore.create()
     sandbox.restore()
-    mock.reset();
+    mock.reset()
   })
 
   describe('fetchData', () => {
@@ -25,6 +27,28 @@ describe('OntologyStore', () => {
 
       expect(store.status).toBe('loaded')
       expect(store.themes).toHaveLength(12)
+    })
+
+    it('sets indicators from params as active', async () => {
+      mock.onGet('input').reply(200, response.data)
+      sandbox.spy(mst, 'resolveIdentifier')
+
+      await store.fetchData('input', ['299'])
+
+      expect(store.status).toBe('loaded')
+      expect(mst.resolveIdentifier.calledOnce).toBe(true)
+      expect(mst.resolveIdentifier(Indicator, store, 299).active).toBe(true)
+    })
+
+    it('ignores incorrect indicators from params', async () => {
+      mock.onGet('input').reply(200, response.data)
+      sandbox.spy(mst, 'resolveIdentifier')
+
+      await store.fetchData('input', ['29993993'])
+
+      expect(store.status).toBe('loaded')
+      expect(mst.resolveIdentifier.calledOnce).toBe(true)
+      expect(mst.resolveIdentifier(Indicator, store, 29993993)).toBe(undefined)
     })
 
     it('retries until it fails', async () => {
@@ -48,7 +72,7 @@ describe('OntologyStore', () => {
     })
 
     it('sets state to error if fetched data is corrupt', async () => {
-      mock.onGet('input').reply(200, { data: { error: 'Something is wrong' }})
+      mock.onGet('input').reply(200, { data: { error: 'Something is wrong' } })
       sandbox.spy(apiClient, 'get')
 
       await expect(store.fetchData('input')).rejects.toThrow()

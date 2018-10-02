@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { withRouter } from 'react-router-dom'
-import { inject, observer } from 'mobx-react'
+import { observer } from 'mobx-react'
 import queryString from 'query-string'
 import pull from 'lodash/pull'
 
@@ -13,21 +13,21 @@ const Wrapper = styled.div`
   justify-content: center;
   text-align: center;
   flex-grow: 0;
-  background: ${props => props.active ? props.theme.activeColor : 'none'};
+  background: ${props => (props.active ? props.theme.activeColor : 'none')};
   width: 100%;
   cursor: pointer;
-  transition: background .4s;
-  
+  transition: background 0.3s;
+
   &:hover {
-    background: ${props => props.active ? props.theme.activeHoverColor : props.theme.hoverColor}
-    transition: background .1s;
+    background: ${props =>
+    props.active ? props.theme.activeHoverColor : props.theme.hoverColor};
   }
 `
 
-const Leaf = ({store: {activeIndicators}, data, history, location, toggle, active, id, name}) => {
+const Leaf = ({ history, location, toggle, active, id, name }) => {
   const onClick = () => {
-    const query = queryString.parse(location.search, {arrayFormat: 'bracket'})
-    if (typeof(query.indicators) === 'undefined') query.indicators = []
+    const query = queryString.parse(location.search, { arrayFormat: 'bracket' })
+    if (typeof query.indicators === 'undefined') query.indicators = []
 
     if (active) {
       pull(query.indicators, id.toString())
@@ -39,10 +39,14 @@ const Leaf = ({store: {activeIndicators}, data, history, location, toggle, activ
 
     history.push({
       ...history.location,
-      search: queryString.stringify(query, {arrayFormat: 'bracket'})
+      search: queryString.stringify(query, { arrayFormat: 'bracket' })
     })
   }
-  return (<Wrapper onClick={onClick} active={active}>{name}</Wrapper>)
+  return (
+    <Wrapper onClick={onClick} active={active}>
+      {name}
+    </Wrapper>
+  )
 }
 
 Leaf.propTypes = {
@@ -52,6 +56,5 @@ Leaf.propTypes = {
   toggle: PropTypes.func
 }
 
-
 export { Leaf }
-export default inject('store')(withRouter(observer(Leaf)))
+export default withRouter(observer(Leaf))

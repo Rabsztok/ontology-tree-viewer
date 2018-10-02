@@ -1,8 +1,8 @@
 import React from 'react'
 import Route from 'react-router-dom/Route'
 import Switch from 'react-router-dom/Switch'
-import Home from 'pages/tree/tree'
-import {injectGlobal, ThemeProvider} from 'styled-components'
+import Tree from 'pages/tree/tree'
+import { injectGlobal, ThemeProvider } from 'styled-components'
 import theme from 'theme'
 
 injectGlobal`
@@ -12,7 +12,7 @@ injectGlobal`
 const App = () => (
   <ThemeProvider theme={theme}>
     <Switch>
-      <Route path='/' component={Home} />
+      <Route path='/' component={Tree} />
     </Switch>
   </ThemeProvider>
 )
