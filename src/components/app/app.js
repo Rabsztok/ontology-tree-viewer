@@ -1,7 +1,7 @@
 import React from 'react'
 import Route from 'react-router-dom/Route'
 import Switch from 'react-router-dom/Switch'
-import Tree from 'pages/tree/tree'
+import Tree from 'pages/index_page/index_page'
 import { injectGlobal, ThemeProvider } from 'styled-components'
 import theme from 'theme'
 
