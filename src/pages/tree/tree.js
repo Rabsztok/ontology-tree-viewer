@@ -1,8 +1,11 @@
 import React from 'react'
 import { inject, observer } from 'mobx-react'
+import { withRouter } from 'react-router-dom'
 import Branch from 'components/branch/branch'
+import Leaf from 'components/leaf/leaf'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
+import queryString from 'query-string'
 
 const Wrapper = styled.div`
   border: 1px solid #eee;
@@ -20,8 +23,9 @@ const Message = styled.div`
 
 class Tree extends React.Component {
   UNSAFE_componentWillMount() {
-    const { status, fetchData } = this.props.store
-    if (status === 'initial') fetchData('input')
+    const {store: { status, fetchData }, location } = this.props
+    const activeIds = queryString.parse(location.search, {arrayFormat: 'bracket'}).indicators
+    if (status === 'initial') fetchData(location.pathname, activeIds)
     if (typeof(window) !== 'undefined') window.store = this.props.store
   }
 
@@ -30,6 +34,7 @@ class Tree extends React.Component {
 
     return ({
       initial: null,
+      empty: <Message>Resource not found.</Message>,
       error: <Message>Could not load resource.</Message>,
       loading: <Message>Loading data...</Message>,
       loaded:
@@ -40,8 +45,11 @@ class Tree extends React.Component {
                 <Branch active={active} key={id} {...subTheme}>
                   {categories.map(({id, indicators, active, ...category}) =>
                     <Branch active={active} key={id} {...category}>
-                      {indicators.map(({id, toggle, ...indicator}) =>
-                        <Branch leaf key={id} onClick={toggle} {...indicator}/>
+                      {indicators.map(({toggle, active, ...indicator}) =>
+                        <Leaf key={indicator.id}
+                              toggle={toggle}
+                              active={active}
+                              {...indicator}/>
                       )}
                     </Branch>
                   )}
@@ -59,4 +67,4 @@ Tree.propTypes = {
 }
 
 export { Tree }
-export default inject('store')(observer(Tree))
+export default inject('store')(withRouter(observer(Tree)))

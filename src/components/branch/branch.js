@@ -19,7 +19,7 @@ const Wrapper = styled.div`
 `
 
 const Name = styled.div`
-  padding: 5px 20px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,6 +33,7 @@ const Name = styled.div`
   
   &:hover {
     background: ${props => props.leaf ? (props.active ? '#82f082' : '#fafafa') : ""}
+    transition: background .1s;
   }
 `
 
