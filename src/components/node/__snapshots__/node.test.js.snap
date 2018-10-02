@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Node renders branch without errors 1`] = `
+<Branch
+  active={false}
+  name="branch"
+>
+  <_class
+    element={
+      Object {
+        "id": 2,
+        "name": "child",
+      }
+    }
+    key="2"
+  />
+</Branch>
+`;
+
+exports[`Node renders leaf without errors 1`] = `
+<withRouter(Leaf)
+  active={false}
+  name="branch"
+  toggle={[Function]}
+/>
+`;
