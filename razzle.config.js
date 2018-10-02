@@ -7,7 +7,7 @@ module.exports = {
     appConfig.resolve.modules.unshift("./src")
 
     if (target === "node" && process.env.PUBLIC_PATH) {
-      config.output.publicPath = process.env.PUBLIC_PATH
+      appConfig.output.publicPath = process.env.PUBLIC_PATH
     }
 
     return appConfig
