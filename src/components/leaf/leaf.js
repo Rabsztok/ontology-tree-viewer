@@ -7,20 +7,19 @@ import queryString from 'query-string'
 import pull from 'lodash/pull'
 
 const Wrapper = styled.div`
-  padding: 10px 20px;
+  padding: ${props => props.theme.cellPadding};
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-right: 1px solid #ddd;
   flex-grow: 0;
-  background: ${props => props.active ? '#8BFF8B' : 'none'};
+  background: ${props => props.active ? props.theme.activeColor : 'none'};
   width: 100%;
   cursor: pointer;
   transition: background .4s;
   
   &:hover {
-    background: ${props => props.active ? '#82f082' : '#fafafa'}
+    background: ${props => props.active ? props.theme.activeHoverColor : props.theme.hoverColor}
     transition: background .1s;
   }
 `
@@ -50,7 +49,7 @@ Leaf.propTypes = {
   name: PropTypes.string,
   active: PropTypes.bool.isRequired,
   id: PropTypes.number.isRequired,
-  toggle: PropTypes.func,
+  toggle: PropTypes.func
 }
 
 

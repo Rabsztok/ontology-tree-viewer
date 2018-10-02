@@ -2,16 +2,19 @@ import React from 'react'
 import Route from 'react-router-dom/Route'
 import Switch from 'react-router-dom/Switch'
 import Home from 'pages/tree/tree'
-import {injectGlobal} from 'styled-components'
+import {injectGlobal, ThemeProvider} from 'styled-components'
+import theme from 'theme'
 
 injectGlobal`
   * { box-sizing: border-box; }
 `
 
 const App = () => (
-  <Switch>
-    <Route path='/' component={Home} />
-  </Switch>
+  <ThemeProvider theme={theme}>
+    <Switch>
+      <Route path='/' component={Home} />
+    </Switch>
+  </ThemeProvider>
 )
 
 export default App
