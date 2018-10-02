@@ -6,8 +6,9 @@ module.exports = {
 
     appConfig.resolve.modules.unshift("./src")
 
-    // if (target === 'web')
-    //   appConfig.plugins.push(new BundleAnalyzerPlugin())
+    if (target === "node" && process.env.PUBLIC_PATH) {
+      config.output.publicPath = process.env.PUBLIC_PATH
+    }
 
     return appConfig
   }
