@@ -25,9 +25,11 @@ const Wrapper = styled.div`
 `
 
 /** Final node of the ontology tree. */
-const Leaf = ({ history, location, toggle, active, id, name }) => {
+const Leaf = ({ history, toggle, active, id, name }) => {
   const onClick = () => {
-    const query = queryString.parse(location.search, { arrayFormat: 'bracket' })
+    const query = queryString.parse(history.location.search, {
+      arrayFormat: 'bracket'
+    })
     if (typeof query.indicators === 'undefined') query.indicators = []
 
     if (active) {
