@@ -5,6 +5,7 @@ import track from 'arboris/lib/track'
 import apiClient from 'utils/api_client'
 import Indicator from 'models/indicator/indicator'
 
+/** Holds reference to themes and is the root of the data tree fetched from API. */
 const OntologyStore = types
   .model('OntologyStore', {
     themes: types.optional(types.array(Theme), []),

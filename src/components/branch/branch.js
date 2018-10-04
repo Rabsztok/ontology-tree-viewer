@@ -36,11 +36,10 @@ const Children = styled.div`
   border-right: 1px solid #ddd;
 `
 
+/** Part of ontology tree that has children. */
 const Branch = ({ name, children, active }) => (
   <Wrapper>
-    <Name active={active}>
-      {name}
-    </Name>
+    <Name active={active}>{name}</Name>
     <Children>{children}</Children>
   </Wrapper>
 )
@@ -48,7 +47,7 @@ const Branch = ({ name, children, active }) => (
 Branch.propTypes = {
   name: PropTypes.string,
   children: PropTypes.array,
-  active: PropTypes.bool.isRequired,
+  active: PropTypes.bool.isRequired
 }
 
 export { Branch }

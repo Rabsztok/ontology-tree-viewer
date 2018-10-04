@@ -24,6 +24,7 @@ const Wrapper = styled.div`
   }
 `
 
+/** Final node of the ontology tree. */
 const Leaf = ({ history, location, toggle, active, id, name }) => {
   const onClick = () => {
     const query = queryString.parse(location.search, { arrayFormat: 'bracket' })

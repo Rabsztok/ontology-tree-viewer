@@ -14,12 +14,15 @@ const Message = styled.div`
   transform: translate(-50%, -50%);
 `
 
+/** Loads data from API and renders ontology tree inside on success. */
 class IndexPage extends React.Component {
+  /** When React 17 will be released, fetching from API will be done with use of Suspense API. */
   UNSAFE_componentWillMount () {
     const { store: { status, fetchData }, location } = this.props
     const activeIds = queryString.parse(location.search, {
       arrayFormat: 'bracket'
     }).indicators
+
     if (status === 'initial') fetchData(location.pathname, activeIds)
     if (typeof window !== 'undefined') window.store = this.props.store
   }
@@ -32,9 +35,7 @@ class IndexPage extends React.Component {
       empty: <Message>Resource not found.</Message>,
       error: <Message>Could not load resource.</Message>,
       loading: <Message>Loading data...</Message>,
-      loaded: (
-        <Tree branches={themes}/>
-      )
+      loaded: <Tree branches={themes} />
     }[status]
   }
 }

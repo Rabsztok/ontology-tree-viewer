@@ -11,10 +11,12 @@ const Wrapper = styled.div`
   box-shadow: 3px 3px 1px #eee;
 `
 
-const Tree = ({branches}) =>
+/** Renders ontology tree using recursive Node components */
+const Tree = ({ branches }) => (
   <Wrapper>
     {branches.map(branch => <Node key={branch.id} element={branch} />)}
   </Wrapper>
+)
 
 Tree.propTypes = {
   branches: PropTypes.array.isRequired

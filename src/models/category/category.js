@@ -6,7 +6,7 @@ const Category = types
     id: types.identifierNumber,
     name: types.string,
     indicators: types.optional(types.array(Indicator), []),
-    unit: types.string
+    unit: types.maybe(types.string)
   })
   .views(self => ({
     get active () {

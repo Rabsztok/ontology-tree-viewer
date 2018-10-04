@@ -9,6 +9,7 @@ injectGlobal`
   * { box-sizing: border-box; }
 `
 
+/** Main container of the app, evaluated both on server and client run */
 const App = () => (
   <ThemeProvider theme={theme}>
     <Switch>
@@ -17,4 +18,5 @@ const App = () => (
   </ThemeProvider>
 )
 
+export { App }
 export default App
